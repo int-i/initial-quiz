@@ -17,7 +17,6 @@ int main() {
 	while (true) {
 		cout << intiInitialQuiz.get_splash() << endl << endl;
 
-		sleep_for(seconds{ 1 });
 		cout << "시작하기 위해 비밀번호를 입력해주시길 바랍니다." << endl;
 		cout << ">>> ";
 		cin >> pw;
