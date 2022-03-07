@@ -27,6 +27,10 @@ int main() {
 			continue;
 		}
 
+		cout << "5초 뒤 문제가 나오게 됩니다. 한/영키를 눌러 한/영 전환 확인해주세요!" << endl << endl;
+		sleep_for(seconds{ 5 });
+
+
 		intiInitialQuiz.stage();
 
 		cout << "\n맞추신 문제는 총 " << intiInitialQuiz.get_numberOfRight() << "개 입니다!" << endl;

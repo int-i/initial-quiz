@@ -35,10 +35,10 @@ void InitialQuiz::guessAnswer() {
 
 void InitialQuiz::matchAnswer() {
 	if (rightAnswer[stageNumber++] == input) {
-		cout << "맞았습니다!" << endl;
+		cout << "맞았습니다!" << endl << endl;
 		++numberOfRight;
 	}
-	else cout << "틀렸습니다..." << endl;
+	else cout << "틀렸습니다..." << endl << endl;
 }
 
 void InitialQuiz::import_data() {
