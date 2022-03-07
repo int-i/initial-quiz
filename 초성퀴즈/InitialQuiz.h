@@ -30,10 +30,11 @@ using std::this_thread::sleep_for;
 
 class InitialQuiz {
 public:
-	InitialQuiz() : input{ "아무것도 입력되지 않았습니다." }, fewSeconds{ 5 } {
+	InitialQuiz() : input{ "아무것도 입력되지 않았습니다." }, numberOfRight{ }, fewSeconds{ 5 } {
 		import_data();
 	}
 
+	void stage();
 	void guessAnswer();
 	void matchAnswer();
 	void import_data();
@@ -55,6 +56,9 @@ public:
 	string get_pw() {
 		return pw;
 	}
+	int get_numberOfRight() {
+		return numberOfRight;
+	}
 	int get_fewSeconds() {
 		return fewSeconds;
 	}
@@ -74,5 +78,7 @@ private:
 	string input;
 	string pw;
 
+	int stageNumber;
+	int numberOfRight;
 	int fewSeconds;
 };

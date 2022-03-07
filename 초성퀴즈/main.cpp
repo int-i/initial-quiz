@@ -2,7 +2,7 @@
 #include "initialQuiz.h"
 #include <algorithm>
 
-void test(InitialQuiz);
+void test(InitialQuiz&);
 
 int main() {
 	InitialQuiz intiInitialQuiz{ };
@@ -27,25 +27,18 @@ int main() {
 			continue;
 		}
 
-		cout << "각 문제는 " << intiInitialQuiz.get_fewSeconds() << "초 내에 풀어야 합니다." << endl << endl;
+		intiInitialQuiz.stage();
 
-		string answer{ };
-
-		for (auto iter{ intiInitialQuiz.get_question().begin() }; iter != intiInitialQuiz.get_question().end(); ++iter) {
-			cout << distance(intiInitialQuiz.get_question().begin(), iter) + 1 << "번 문제 " << *iter << endl;
-
-			intiInitialQuiz.guessAnswer();
-			std::cout << "\n입력 된 값 : " << intiInitialQuiz.get_input() << std::endl;
-			intiInitialQuiz.matchAnswer();
-		}
+		cout << "\n맞추신 문제는 총 " << intiInitialQuiz.get_numberOfRight() << "개 입니다!" << endl;
 		system("pause");
+		return 0;
 	}
 
 	return 0;
 }
 
 
-void test(InitialQuiz intiInitialQuiz) {
+void test(InitialQuiz& intiInitialQuiz) {
 	cout << "\n해당 퀴즈는 테스트 모드로 실행되었습니다." << endl;
 	cout << "바로 문제 풀이로 넘어갑니다." << endl;
 	cout << "각 문제는 " << intiInitialQuiz.get_fewSeconds() << "초 내에 풀어야 합니다." << endl << endl;
