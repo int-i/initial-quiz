@@ -30,7 +30,7 @@ using std::this_thread::sleep_for;
 
 class InitialQuiz {
 public:
-	InitialQuiz() : input{ "아무것도 입력되지 않았습니다." }, numberOfRight{ }, fewSeconds{ 5 } {
+	InitialQuiz() : input{ "아무것도 입력되지 않았습니다." }, numberOfRight{ }, fewSeconds{ 15 } {
 		import_data();
 	}
 

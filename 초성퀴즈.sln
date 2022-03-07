@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "초성퀴즈", "초성퀴즈\초성퀴즈.vcxproj", "{EB8F0733-D274-44DB-A034-7386E6514A3F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "인트아이 초성 퀴즈", "인트아이 초성 퀴즈\인트아이 초성 퀴즈.vdproj", "{7B821FCD-E434-42D0-AD58-041B9DCB8930}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "int i initial quiz", "int i initial quiz\int i initial quiz.vdproj", "{D83A66EA-73A3-43BB-8707-905527F28490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,11 +23,11 @@ Global
 		{EB8F0733-D274-44DB-A034-7386E6514A3F}.Release|x64.Build.0 = Release|x64
 		{EB8F0733-D274-44DB-A034-7386E6514A3F}.Release|x86.ActiveCfg = Release|Win32
 		{EB8F0733-D274-44DB-A034-7386E6514A3F}.Release|x86.Build.0 = Release|Win32
-		{7B821FCD-E434-42D0-AD58-041B9DCB8930}.Debug|x64.ActiveCfg = Debug
-		{7B821FCD-E434-42D0-AD58-041B9DCB8930}.Debug|x86.ActiveCfg = Debug
-		{7B821FCD-E434-42D0-AD58-041B9DCB8930}.Release|x64.ActiveCfg = Release
-		{7B821FCD-E434-42D0-AD58-041B9DCB8930}.Release|x64.Build.0 = Release
-		{7B821FCD-E434-42D0-AD58-041B9DCB8930}.Release|x86.ActiveCfg = Release
+		{D83A66EA-73A3-43BB-8707-905527F28490}.Debug|x64.ActiveCfg = Debug
+		{D83A66EA-73A3-43BB-8707-905527F28490}.Debug|x86.ActiveCfg = Debug
+		{D83A66EA-73A3-43BB-8707-905527F28490}.Release|x64.ActiveCfg = Release
+		{D83A66EA-73A3-43BB-8707-905527F28490}.Release|x64.Build.0 = Release
+		{D83A66EA-73A3-43BB-8707-905527F28490}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

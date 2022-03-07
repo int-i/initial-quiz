@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:인트아이 초성 퀴즈"
+"ProjectName" = "8:int i initial quiz"
 "LanguageId" = "3:1042"
 "CodePage" = "3:949"
 "UILanguageId" = "3:1042"
@@ -15,31 +15,31 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_259A73B671B149B8B7388D3BD840BB24"
+        "MsmKey" = "8:_1EEB3C2190F74489BBEDB6C467D9753F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2C8A7A308E6049EFB3DC3BDA7B78FAC7"
+        "MsmKey" = "8:_2974363C05A44B26A90F2349166475DE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_3D29ED6F9F1C44169F768B91305BC349"
+        "MsmKey" = "8:_35C90E98030244B986D89D46856400CA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E70895CBA10047609F9703EB117DB241"
+        "MsmKey" = "8:_6857C2ACCB9649B6B130D1F4696294BE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_EBAEC9A84E1840C5B18A7BE165FE20DC"
+        "MsmKey" = "8:_F96A7A094D7843878280C3AD102D7E63"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,7 +51,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\인트아이 초성 퀴즈.msi"
+        "OutputFilename" = "8:Debug\\int i initial quiz.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -61,29 +61,13 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
-            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
-            {
-            "Enabled" = "11:TRUE"
-            "PromptEnabled" = "11:TRUE"
-            "PrerequisitesLocation" = "2:1"
-            "Url" = "8:"
-            "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
-                    }
-                }
-            }
         }
         "Release"
         {
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\인트아이 초성 퀴즈.msi"
+        "OutputFilename" = "8:Release\\int i initial quiz.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -98,16 +82,8 @@
             "Enabled" = "11:TRUE"
             "PromptEnabled" = "11:TRUE"
             "PrerequisitesLocation" = "2:1"
-            "Url" = "8:https://github.com/int-i/initial-quiz"
+            "Url" = "8:https://github.com/int-i/initial-quiz/releases/tag/ver1.0.1"
             "ComponentsUrl" = "8:"
-                "Items"
-                {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
-                    {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
-                    }
-                }
             }
         }
     }
@@ -130,32 +106,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C8A7A308E6049EFB3DC3BDA7B78FAC7"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\OneDrive\\문서\\인트아이 자료\\int i logo.ico"
-            "TargetName" = "8:int i logo.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_FB9609F7386349B0A07183CAAA72C584"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D29ED6F9F1C44169F768B91305BC349"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1EEB3C2190F74489BBEDB6C467D9753F"
             {
             "SourcePath" = "8:..\\초성퀴즈\\pw"
             "TargetName" = "8:pw"
             "Tag" = "8:"
-            "Folder" = "8:_FB9609F7386349B0A07183CAAA72C584"
+            "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -170,12 +126,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E70895CBA10047609F9703EB117DB241"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2974363C05A44B26A90F2349166475DE"
             {
             "SourcePath" = "8:..\\초성퀴즈\\data"
             "TargetName" = "8:data"
             "Tag" = "8:"
-            "Folder" = "8:_FB9609F7386349B0A07183CAAA72C584"
+            "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -190,12 +146,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EBAEC9A84E1840C5B18A7BE165FE20DC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6857C2ACCB9649B6B130D1F4696294BE"
             {
             "SourcePath" = "8:..\\초성퀴즈\\splash"
             "TargetName" = "8:splash"
             "Tag" = "8:"
-            "Folder" = "8:_FB9609F7386349B0A07183CAAA72C584"
+            "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F96A7A094D7843878280C3AD102D7E63"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\OneDrive\\문서\\인트아이 자료\\int i logo.ico"
+            "TargetName" = "8:int i logo.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -216,18 +192,7 @@
         }
         "Folder"
         {
-            "{1525181F-901A-416C-8A58-119130FE478E}:_07B30A9F6BCC4E949612985ECF20D84C"
-            {
-            "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Property" = "8:ProgramMenuFolder"
-                "Folders"
-                {
-                }
-            }
-            "{1525181F-901A-416C-8A58-119130FE478E}:_7DC052DB58B247E0A5702E08C3947628"
+            "{1525181F-901A-416C-8A58-119130FE478E}:_0A7CF203693E47AE899CC39F8A4ED3E4"
             {
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
@@ -238,7 +203,7 @@
                 {
                 }
             }
-            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_FB9609F7386349B0A07183CAAA72C584"
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_0F81008006CC4A60B25AF1ED5311A486"
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
@@ -246,6 +211,17 @@
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_153241BC8FCF414EAC6EE009CE7C716F"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
                 }
@@ -265,22 +241,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:인트아이 초성 퀴즈"
-        "ProductCode" = "8:{911B6CC7-DCFA-48AB-88AF-975570384399}"
-        "PackageCode" = "8:{B9D131E6-8933-40FA-8F90-3CB7A1BAE126}"
-        "UpgradeCode" = "8:{ADDA8A21-D526-4FED-824F-98CF7B8FD574}"
+        "ProductName" = "8:int i initial quiz"
+        "ProductCode" = "8:{8EF00857-BEC7-4971-850B-0F1E6B27A935}"
+        "PackageCode" = "8:{7BB3BA83-7DD7-4096-A4E3-E7F7E714F9D0}"
+        "UpgradeCode" = "8:{506BCAAC-A7CE-40A4-8561-65F24249881E}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:TRUE"
+        "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
-        "Manufacturer" = "8:int i"
+        "ProductVersion" = "8:1.0.2"
+        "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:인트아이 초성 퀴즈"
+        "Title" = "8:int i initial quiz"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:정연한"
+        "ARPCONTACT" = "8:Default Company Name"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -299,7 +275,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B52605813BF3465688C41DA53BFD1034"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_6961E3D54AEE4692A5DCE008135271C0"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -308,7 +284,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_E8DA374CAE3F424FB9711E8BBC99C502"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_4450994EF84345698E5FF9510802D64A"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -333,7 +309,7 @@
             {
                 "Keys"
                 {
-                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_66E7861B4E724CA0B0D8A8C1AD8D354E"
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_EC796EDC5F234545850A2B7990D38905"
                     {
                     "Name" = "8:Software"
                     "Condition" = "8:"
@@ -342,7 +318,7 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_9CD27F401B3142A6A1613BC9C6BCE902"
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_70526FDF980A4BD09ACD0E9328277BBD"
                             {
                             "Name" = "8:[Manufacturer]"
                             "Condition" = "8:"
@@ -387,7 +363,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EB9E757723664B00947135EC5E412621"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C7E339B2AB1C4A3EB50780AB10D356C8"
             {
             "Name" = "8:인트아이 초성 퀴즈"
             "Arguments" = "8:"
@@ -395,29 +371,74 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_259A73B671B149B8B7388D3BD840BB24"
-            "Folder" = "8:_07B30A9F6BCC4E949612985ECF20D84C"
-            "WorkingFolder" = "8:_FB9609F7386349B0A07183CAAA72C584"
-            "Icon" = "8:_2C8A7A308E6049EFB3DC3BDA7B78FAC7"
+            "Target" = "8:_35C90E98030244B986D89D46856400CA"
+            "Folder" = "8:_153241BC8FCF414EAC6EE009CE7C716F"
+            "WorkingFolder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
+            "Icon" = "8:_F96A7A094D7843878280C3AD102D7E63"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DFBB9CCAB5A147FBBCA06F5A9DD2BD85"
+            {
+            "Name" = "8:인트아이 초성 퀴즈"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_35C90E98030244B986D89D46856400CA"
+            "Folder" = "8:_0A7CF203693E47AE899CC39F8A4ED3E4"
+            "WorkingFolder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
+            "Icon" = "8:_F96A7A094D7843878280C3AD102D7E63"
             "Feature" = "8:"
             }
         }
         "UserInterface"
         {
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_2E6DE1B561714AD7A8375F2BE9EBB5B6"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_120E5516B0C24B58B622E878C3365823"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_772D98E6CBCC4717AC6BE7AEEC5CBCD5"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:마침"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_338C2BB6AD744098BAE5F30EF8321B22"
             {
             "Name" = "8:#1901"
-            "Sequence" = "3:1"
+            "Sequence" = "3:2"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8D0523E7123D4243A4758363DF51FFAB"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E1875F0B533E464AAB66804F99074828"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:진행률"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -448,83 +469,26 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_4BB403FEA0364CC283C9D543EF9D0683"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_941FD682FE084D5E894B2322FE73B283"
             {
             "UseDynamicProperties" = "11:FALSE"
             "IsDependency" = "11:FALSE"
             "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_6927A3E21F4A47739E48BB908B4F4212"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_99071391A60E4949868AEFFBC74E806F"
             {
-            "Name" = "8:#1900"
+            "Name" = "8:#1902"
             "Sequence" = "3:1"
-            "Attributes" = "3:1"
+            "Attributes" = "3:3"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0C60721B69484798B74D212AD9A9CC46"
-                    {
-                    "Sequence" = "3:200"
-                    "DisplayName" = "8:설치 폴더"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "InstallAllUsersVisible"
-                            {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_55DEDE817AD742909B2DA529C8E10CC1"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:설치 확인"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C6A60A8593C54BC68DB9F1007D44917F"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_2B4D48017858408991AB82066BD5E0A2"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:환영"
+                    "DisplayName" = "8:마침"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -538,44 +502,53 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "CopyrightWarning"
+                            "UpdateText"
                             {
-                            "Name" = "8:CopyrightWarning"
-                            "DisplayName" = "8:#1002"
-                            "Description" = "8:#1102"
-                            "Type" = "3:3"
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:1"
-                            "Value" = "8:#1202"
-                            "DefaultValue" = "8:#1202"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "Welcome"
-                            {
-                            "Name" = "8:Welcome"
-                            "DisplayName" = "8:#1003"
-                            "Description" = "8:#1103"
-                            "Type" = "3:3"
-                            "ContextData" = "8:"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1203"
-                            "DefaultValue" = "8:#1203"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_6CDBEE0058CD48A29EB2EF3B582442C3"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_A987D3B6B1DD4BD2997F6E1D264620F0"
             {
             "Name" = "8:#1900"
             "Sequence" = "3:2"
             "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_44C32778A93D426A9F9D1E62333BD017"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3B1BA6522B054840AD77B5B526CE62C4"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:설치 확인"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_43BC359015154F4FA6FF3CF43D2697F9"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:환영"
@@ -623,29 +596,7 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_63EC0F28F4834C369CDAB2067A6D9A6E"
-                    {
-                    "Sequence" = "3:300"
-                    "DisplayName" = "8:설치 확인"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_7CBED821DDF0480DBC94FE5769DB3660"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5FB6729D21BF47CF9BD154DA778208B9"
                     {
                     "Sequence" = "3:200"
                     "DisplayName" = "8:설치 폴더"
@@ -669,20 +620,26 @@
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_8E752B377A86438E97FAA0CFAF88F43B"
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_B3A142D8065041E4B01FCAC13A5FC1FD"
             {
-            "Name" = "8:#1902"
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_C9AA12CA6D11427B86A6A333063EEE43"
+            {
+            "Name" = "8:#1900"
             "Sequence" = "3:1"
-            "Attributes" = "3:3"
+            "Attributes" = "3:1"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0DEEBDDA8D6E4E58803CF289B99E026A"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0D285009545D4B939AC00ED899748EB4"
                     {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:마침"
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:설치 확인"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -696,37 +653,63 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
-                            "UpdateText"
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_848739F861684BB7939E952803A86F79"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:환영"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
                             {
-                            "Name" = "8:UpdateText"
-                            "DisplayName" = "8:#1058"
-                            "Description" = "8:#1158"
-                            "Type" = "3:15"
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:1"
-                            "Value" = "8:#1258"
-                            "DefaultValue" = "8:#1258"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
                     }
-                }
-            }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9C324C97C0F541C88C1C883FA5F49693"
-            {
-            "Name" = "8:#1902"
-            "Sequence" = "3:2"
-            "Attributes" = "3:3"
-                "Dialogs"
-                {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_3DF0FBA6D5EE454894A617271EF8BF74"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B829C6BDF8EE4FD598C292C38C35E823"
                     {
-                    "Sequence" = "3:100"
-                    "DisplayName" = "8:마침"
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:설치 폴더"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -740,24 +723,37 @@
                             "Setting" = "3:1"
                             "UsePlugInResources" = "11:TRUE"
                             }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
                         }
                     }
                 }
             }
-            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_F3B34F1D685B48439B9CF8E2DB40D607"
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_EBEC68201F944461B63EDFE720C8A091"
             {
             "Name" = "8:#1901"
-            "Sequence" = "3:2"
+            "Sequence" = "3:1"
             "Attributes" = "3:2"
                 "Dialogs"
                 {
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_083C9B9EDD094765A1AAFF555065B0F0"
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C6BA4D2B51EB4F2DBBC9B228CCD11D27"
                     {
                     "Sequence" = "3:100"
                     "DisplayName" = "8:진행률"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
                         "Properties"
                         {
                             "BannerBitmap"
@@ -788,24 +784,18 @@
                     }
                 }
             }
-            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_FDA3AAE411564971B40EEBBEA79C3AB0"
-            {
-            "UseDynamicProperties" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
-            }
         }
         "MergeModule"
         {
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_259A73B671B149B8B7388D3BD840BB24"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_35C90E98030244B986D89D46856400CA"
             {
             "SourcePath" = "8:..\\x64\\Release\\초성퀴즈.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_FB9609F7386349B0A07183CAAA72C584"
+            "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
