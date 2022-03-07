@@ -27,7 +27,6 @@ using std::thread;
 using std::this_thread::sleep_for;
 
 
-
 class InitialQuiz {
 public:
 	InitialQuiz() : input{ "아무것도 입력되지 않았습니다." }, numberOfRight{ }, fewSeconds{ 15 } {
@@ -35,8 +34,8 @@ public:
 	}
 
 	void stage();
-	void guessAnswer();
-	void matchAnswer();
+	void guess_answer();
+	void match_answer();
 	void import_data();
 
 	vector<string>& get_question() {

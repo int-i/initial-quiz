@@ -3,9 +3,11 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
+
 using std::cout;
 using std::cin;
 using std::ios;
+
 using std::locale;
 
 using std::fstream;
@@ -18,13 +20,13 @@ void InitialQuiz::stage() {
 	for (auto iter{ question.begin() }; iter != question.end(); ++iter) {
 		cout << distance(question.begin(), iter) + 1 << "번 문제 " << *iter << endl;
 
-		guessAnswer();
+		guess_answer();
 		std::cout << "\n입력 된 값 : " << input << std::endl;
-		matchAnswer();
+		match_answer();
 	}
 }
 
-void InitialQuiz::guessAnswer() {
+void InitialQuiz::guess_answer() {
 	cout << "정답을 입력해 주세요\n" << ">>> ";
 
 	thread readInput{ [this] { input = "아무것도 입력되지 않았습니다."; cin >> input; } }; // cin을 수행하는 람다를 실행하는 스레드 생성
@@ -33,7 +35,7 @@ void InitialQuiz::guessAnswer() {
 	readInput.~thread(); // thread 소멸자를 호출함으로써 입력을 강제로 중단
 }
 
-void InitialQuiz::matchAnswer() {
+void InitialQuiz::match_answer() {
 	if (rightAnswer[stageNumber++] == input) {
 		cout << "맞았습니다!" << endl << endl;
 		++numberOfRight;

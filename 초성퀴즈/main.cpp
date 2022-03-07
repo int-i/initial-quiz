@@ -52,9 +52,9 @@ void test(InitialQuiz& intiInitialQuiz) {
 	for (auto iter{ intiInitialQuiz.get_question().begin() }; iter != intiInitialQuiz.get_question().end(); ++iter) {
 		cout << distance(intiInitialQuiz.get_question().begin(), iter) + 1 << "번 문제 " << *iter << endl;
 
-		intiInitialQuiz.guessAnswer();
+		intiInitialQuiz.guess_answer();
 		std::cout << "\n입력 된 값 : " << intiInitialQuiz.get_input() << std::endl;
-		intiInitialQuiz.matchAnswer();
+		intiInitialQuiz.match_answer();
 	}
 	system("pause");
 	exit(EXIT_SUCCESS);
