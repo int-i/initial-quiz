@@ -17,6 +17,7 @@ int main() {
 	while (true) {
 		cout << intiInitialQuiz.get_splash() << endl << endl;
 
+		sleep_for(seconds{ 1 });
 		cout << "시작하기 위해 비밀번호를 입력해주시길 바랍니다." << endl;
 		cout << ">>> ";
 		cin >> pw;
@@ -29,7 +30,6 @@ int main() {
 
 		cout << "5초 뒤 문제가 나오게 됩니다. 한/영키를 눌러 한/영 전환 확인해주세요!" << endl << endl;
 		sleep_for(seconds{ 5 });
-
 
 		intiInitialQuiz.stage();
 

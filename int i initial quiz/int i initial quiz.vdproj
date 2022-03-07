@@ -21,19 +21,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_2974363C05A44B26A90F2349166475DE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_35C90E98030244B986D89D46856400CA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6857C2ACCB9649B6B130D1F4696294BE"
+        "MsmKey" = "8:_48796755728446BD893FCB3EDD0541FD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B52CC78385B0409187717BA36F151961"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -84,6 +84,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:https://github.com/int-i/initial-quiz/releases/tag/ver1.0.1"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -126,10 +134,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2974363C05A44B26A90F2349166475DE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48796755728446BD893FCB3EDD0541FD"
             {
-            "SourcePath" = "8:..\\초성퀴즈\\data"
-            "TargetName" = "8:data"
+            "SourcePath" = "8:..\\초성퀴즈\\splash"
+            "TargetName" = "8:splash"
             "Tag" = "8:"
             "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
@@ -146,10 +154,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6857C2ACCB9649B6B130D1F4696294BE"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B52CC78385B0409187717BA36F151961"
             {
-            "SourcePath" = "8:..\\초성퀴즈\\splash"
-            "TargetName" = "8:splash"
+            "SourcePath" = "8:..\\초성퀴즈\\data"
+            "TargetName" = "8:data"
             "Tag" = "8:"
             "Folder" = "8:_0F81008006CC4A60B25AF1ED5311A486"
             "Condition" = "8:"
@@ -243,7 +251,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:int i initial quiz"
         "ProductCode" = "8:{8EF00857-BEC7-4971-850B-0F1E6B27A935}"
-        "PackageCode" = "8:{7BB3BA83-7DD7-4096-A4E3-E7F7E714F9D0}"
+        "PackageCode" = "8:{61B9EB21-7934-47C1-B939-38E8346303FB}"
         "UpgradeCode" = "8:{506BCAAC-A7CE-40A4-8561-65F24249881E}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -251,12 +259,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.2"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:int i"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:int i initial quiz"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:정연한"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
