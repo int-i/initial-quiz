@@ -45,6 +45,8 @@ public:
 		return rightAnswer;
 	}
 	string get_splash() {
+		// 0 ~ splash.size()까지 균등 분포 정의
+		uniform_int_distribution<int> randomInt{0, static_cast<int>(splash.size() - 1)};
 		return splash[randomInt(gen)];
 	}
 	string get_input() {
@@ -62,11 +64,8 @@ public:
 	}
 
 private:
-	// 랜덤 엔진 선언
 	random_device rd{ };
 	mt19937 gen{ rd() };
-	// 0 ~ splash.size()까지 균등 분포 정의
-	uniform_int_distribution<int> randomInt{ 0, static_cast<int>(splash.size()) };
 
 	vector<string> question;
 	vector<string> rightAnswer;
